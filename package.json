@@ -1,0 +1,24 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "fullstackopen assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nanasei878/Phonebook.git"
+  },
+  "author": "Kwabena Osei-Tutu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nanasei878/Phonebook/issues"
+  },
+  "homepage": "https://github.com/Nanasei878/Phonebook#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
