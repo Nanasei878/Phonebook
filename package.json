@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Nanasei878/Phonebook#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0"
   }
 }

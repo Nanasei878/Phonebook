@@ -1,8 +1,26 @@
 const express = require('express');
+const morgan = require('morgan');
 const app = express();
+const cors = require('cors')
+app.use(express.static('build'))
+
+morgan.token('postData', (req) => {
+    if (req.method === 'POST') {
+      return JSON.stringify(req.body);
+    }
+    return '';
+  });
+  
+app.use(morgan(':method :url :status :response-time ms - :res[content-length] :postData')); // Use custom token in morgan
+  
+
 const bodyparser = require('body-parser');
 
 app.use(express.json());
+
+
+
+app.use(cors())
 
 let persons = [
   { 
