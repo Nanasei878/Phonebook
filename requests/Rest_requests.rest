@@ -5,3 +5,6 @@ Content-Type: application/json
   "name": "kwabena ",
   "number": "06-09-847933"
 }
+
+###
+GET http://localhost:3001/api/persons
